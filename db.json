@@ -2,8 +2,8 @@
   "users": [
     {
       "id": "101",
-      "username": "veer_123",
-      "password": "veer123",
+      "username": "john_123",
+      "password": "john123",
       "email": "john.doe@example.com",
       "cards": [
         {
@@ -15,8 +15,8 @@
     },
     {
       "id": "102",
-      "username": "jatin_123",
-      "password": "jatin123",
+      "username": "jane_123",
+      "password": "jane123",
       "email": "jane.doe@example.com",
       "cards": [
         {
