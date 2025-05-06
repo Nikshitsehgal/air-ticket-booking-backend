@@ -1,0 +1,279 @@
+{
+  "users": [
+    {
+      "id": "101",
+      "username": "veer_123",
+      "password": "veer123",
+      "email": "john.doe@example.com",
+      "cards": [
+        {
+          "cardNumber": "4111111111111111",
+          "expiryDate": "12/25",
+          "cvv": "123"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "username": "jatin_123",
+      "password": "jatin123",
+      "email": "jane.doe@example.com",
+      "cards": [
+        {
+          "cardNumber": "5500000000000004",
+          "expiryDate": "08/23",
+          "cvv": "456"
+        }
+      ]
+    }
+  ],
+  "flights": [
+    {
+      "id": "1",
+      "departure": "india",
+      "arrival": "chandigarh",
+      "date": "02-01-2025",
+      "price": 300,
+      "duration": "3h 45m",
+      "flightNumber": "IND123",
+      "departureTime": "10:00 AM",
+      "aircraft": "Boeing 777",
+      "amenities": [
+        "Free WiFi",
+        "In-Flight Meals",
+        "Power Outlets"
+      ],
+      "gate": "A10",
+      "terminal": "T1",
+      "arrivalTime": "1:45 PM",
+      "availableseats": 15
+    },
+    {
+      "id": "2",
+      "departure": "india",
+      "arrival": "chandigarh",
+      "date": "02-01-2025",
+      "price": 400,
+      "duration": "3h 45m",
+      "flightNumber": "IND123",
+      "departureTime": "2:00 PM",
+      "aircraft": "Airbus A320",
+      "amenities": [
+        "Free Snacks",
+        "Power Outlets"
+      ],
+      "gate": "B5",
+      "terminal": "T3",
+      "arrivalTime": "5:00 PM",
+      "availableseats": 5
+    },
+    {
+      "id": "3",
+      "departure": "india",
+      "arrival": "chandigarh",
+      "date": "12-01-2025",
+      "price": 250,
+      "duration": "3h 30m",
+      "flightNumber": "IND124",
+      "departureTime": "11:00 AM",
+      "aircraft": "Airbus A320",
+      "amenities": [
+        "Free Snacks",
+        "Power Outlets"
+      ],
+      "gate": "B5",
+      "terminal": "T1",
+      "arrivalTime": "2:30 PM",
+      "availableseats": 20
+    },
+    {
+      "id": "4",
+      "departure": "pune",
+      "arrival": "jaipur",
+      "date": "25-07-2025",
+      "price": 468,
+      "duration": "5h 31m",
+      "flightNumber": "PUN628",
+      "departureTime": "1:00 PM",
+      "aircraft": "Airbus A320",
+      "amenities": [
+        "Free WiFi",
+        "In-Flight Meals"
+      ],
+      "gate": "D4",
+      "terminal": "T3",
+      "arrivalTime": "12:00 AM",
+      "availableseats": 33
+    },
+    {
+      "id": "5",
+      "departure": "delhi",
+      "arrival": "mumbai",
+      "date": "29-07-2025",
+      "price": 478,
+      "duration": "4h 20m",
+      "flightNumber": "DEL146",
+      "departureTime": "5:00 AM",
+      "aircraft": "Embraer 190",
+      "amenities": [
+        "Free Snacks",
+        "Power Outlets"
+      ],
+      "gate": "B2",
+      "terminal": "T1",
+      "arrivalTime": "5:00 AM",
+      "availableseats": 33
+    },
+    {
+      "id": "6",
+      "departure": "chennai",
+      "arrival": "kolkata",
+      "date": "17-06-2025",
+      "price": 200,
+      "duration": "2h 52m",
+      "flightNumber": "CHE632",
+      "departureTime": "3:30 PM",
+      "aircraft": "Boeing 737",
+      "amenities": [
+        "Power Outlets"
+      ],
+      "gate": "A5",
+      "terminal": "T2",
+      "arrivalTime": "1:30 AM",
+      "availableseats": 23
+    },
+    {
+      "id": "7",
+      "departure": "pune",
+      "arrival": "jaipur",
+      "date": "22-07-2025",
+      "price": 357,
+      "duration": "2h 24m",
+      "flightNumber": "PUN960",
+      "departureTime": "9:30 AM",
+      "aircraft": "Boeing 777",
+      "amenities": [
+        "Power Outlets"
+      ],
+      "gate": "C3",
+      "terminal": "T2",
+      "arrivalTime": "5:00 PM",
+      "availableseats": 43
+    },
+    {
+      "id": "8",
+      "departure": "chennai",
+      "arrival": "kolkata",
+      "date": "13-07-2025",
+      "price": 529,
+      "duration": "1h 51m",
+      "flightNumber": "CHE814",
+      "departureTime": "10:00 PM",
+      "aircraft": "Airbus A320",
+      "amenities": [
+        "Free Snacks",
+        "Power Outlets"
+      ],
+      "gate": "A5",
+      "terminal": "T2",
+      "arrivalTime": "10:30 AM",
+      "availableseats": 10
+    },
+    {
+      "id": "9",
+      "departure": "delhi",
+      "arrival": "mumbai",
+      "date": "24-05-2025",
+      "price": 529,
+      "duration": "3h 7m",
+      "flightNumber": "DEL447",
+      "departureTime": "6:00 AM",
+      "aircraft": "Boeing 737",
+      "amenities": [
+        "Free Snacks",
+        "Power Outlets"
+      ],
+      "gate": "C3",
+      "terminal": "T3",
+      "arrivalTime": "3:30 PM",
+      "availableseats": 46
+    },
+    {
+      "id": "10",
+      "departure": "delhi",
+      "arrival": "mumbai",
+      "date": "23-07-2025",
+      "price": 232,
+      "duration": "4h 29m",
+      "flightNumber": "DEL941",
+      "departureTime": "9:00 AM",
+      "aircraft": "Airbus A320",
+      "amenities": [
+        "Free WiFi",
+        "In-Flight Meals"
+      ],
+      "gate": "D4",
+      "terminal": "T3",
+      "arrivalTime": "7:00 AM",
+      "availableseats": 19
+    },
+    {
+      "id": "11",
+      "departure": "delhi",
+      "arrival": "mumbai",
+      "date": "03-07-2025",
+      "price": 497,
+      "duration": "1h 31m",
+      "flightNumber": "DEL764",
+      "departureTime": "6:30 AM",
+      "aircraft": "Embraer 190",
+      "amenities": [
+        "Free Snacks",
+        "Power Outlets"
+      ],
+      "gate": "A5",
+      "terminal": "T1",
+      "arrivalTime": "2:00 PM",
+      "availableseats": 18
+    },
+    {
+      "id": "12",
+      "departure": "chennai",
+      "arrival": "kolkata",
+      "date": "18-06-2025",
+      "price": 278,
+      "duration": "1h 12m",
+      "flightNumber": "CHE507",
+      "departureTime": "12:30 PM",
+      "aircraft": "Airbus A320",
+      "amenities": [
+        "Free Snacks",
+        "Power Outlets"
+      ],
+      "gate": "B2",
+      "terminal": "T1",
+      "arrivalTime": "7:00 AM",
+      "availableseats": 19
+    },
+    {
+      "id": "13",
+      "departure": "chennai",
+      "arrival": "kolkata",
+      "date": "08-07-2025",
+      "price": 387,
+      "duration": "2h 1m",
+      "flightNumber": "CHE973",
+      "departureTime": "1:30 PM",
+      "aircraft": "Boeing 737",
+      "amenities": [
+        "Free WiFi",
+        "In-Flight Meals"
+      ],
+      "gate": "A1",
+      "terminal": "T3",
+      "arrivalTime": "3:30 AM",
+      "availableseats": 40
+    }
+  ],
+  "bookings": []
+}
